@@ -3,17 +3,17 @@
 ## Overview
 This project analyzes an e-commerce dataset to uncover insights about customer purchasing behavior and sales trends. It includes data preprocessing, visualization, and regression modeling.
 
-## 📊　　Objective
+## 📊 Objective
 - Understand customer purchasing behavior
 - Explore the relationship between product price and quantity sold
 - Build a regression model to predict product prices
 
-## 🧰　　Tools & Technologies
+## 🧰 Tools & Technologies
 - Python
 - Jupyter Notebook
 - pandas, matplotlib, seaborn, scikit-learn
 
-## 📁　　Dataset
+## 📁 Dataset
 - Source: [Kaggle - E-Commerce Sales Prediction Dataset](https://www.kaggle.com/datasets/nevildhinoja/e-commerce-sales-prediction-dataset)
 - Key columns: `Date`, `Price`, `Quantity`, `Product_Category`, `Shipping_Cost`
 
@@ -46,4 +46,5 @@ This project analyzes an e-commerce dataset to uncover insights about customer p
 2. Install dependencies:
    ```bash
    git clone https://github.com/yuipon4869/ecommerce-analysis.git
-   pip install -r requirements.txt
+   cd ecommerce-analysis
+   jupyter notebook
