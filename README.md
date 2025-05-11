@@ -1,50 +1,42 @@
-# ecommerce-analysis
+# 📊 Sales Prediction Analysis
 
 ## Overview
-This project analyzes an e-commerce dataset to uncover insights about customer purchasing behavior and sales trends. It includes data preprocessing, visualization, and regression modeling.
 
-## 📊 Objective
-- Understand customer purchasing behavior
-- Explore the relationship between product price and quantity sold
-- Build a regression model to predict product prices
+This project analyzes e-commerce sales data to predict future sales trends. By leveraging data visualization and machine learning techniques, we aim to provide insights that can help in strategic decision-making for inventory management and marketing.
 
-## 🧰 Tools & Technologies
+## Dataset
+
+- **Source**: [Kaggle - E-commerce Sales Prediction Dataset]([https://www.kaggle.com/datasets](https://www.kaggle.com/datasets/nevildhinoja/e-commerce-sales-prediction-dataset/data))
+- **Description**: The dataset includes historical sales data from a retail store, encompassing various product categories, sales figures, and promotional information.
+
+## Technologies Used
+
 - Python
-- Jupyter Notebook
-- pandas, matplotlib, seaborn, scikit-learn
+- pandas
+- matplotlib
+- seaborn
+- scikit-learn
 
-## 📁 Dataset
-- Source: [Kaggle - E-Commerce Sales Prediction Dataset](https://www.kaggle.com/datasets/nevildhinoja/e-commerce-sales-prediction-dataset)
-- Key columns: `Date`, `Price`, `Quantity`, `Product_Category`, `Shipping_Cost`
+## Project Structure
 
-## 📈 Analysis Highlights
-- Sales peaked in [Month]
-- Category X contributed to 40% of total revenue
-- Linear Regression showed RMSE = 3.27, indicating [brief conclusion]
+1. **Data Exploration**  
+   - Utilized scatter plots and heatmaps to identify relationships between variables.  
+   - Assessed data distribution and detected outliers.
 
-## 🔮 Future Work
-- Build a dashboard using Streamlit
-- Try more advanced models (e.g., Random Forest, XGBoost)
-- Segment customers with clustering
+2. **Data Preprocessing**  
+   - Performed feature engineering to create new predictive variables.
 
-## 📕 Workflow
-1. Load and explore the dataset
-2. Clean missing or incorrect values
-3. Convert and extract features from date (year, month, weekday)
-4. Visualize key patterns (e.g. price distribution, correlations)
-5. Train a regression model using RandomForestRegressor
-6. Evaluate model performance (e.g. RMSE)
+3. **Model Building**  
+   - Implemented regression models to forecast sales.  
+   - Evaluated model performance using appropriate metrics.
 
-## 🔑 Key Findings
-- Most products fall in a low-price range
-- Quantity and price show weak negative correlation
-- Weekday and monthly trends reveal patterns in order frequency
-- Regression model achieved reasonable accuracy for price prediction
+4. **Results Visualization**  
+   - Presented findings through graphs and charts for better interpretability.
 
-## ❓ How to Run
-1. Clone the repository
-2. Install dependencies:
-   ```bash
-   git clone https://github.com/yuipon4869/ecommerce-analysis.git
-   cd ecommerce-analysis
-   jupyter notebook
+## Challenges and Learnings
+
+- **Feature Selection**: Determining the most impactful features required iterative
+
+## Conclusion
+
+The analysis provided valuable insights into sales patterns, highlighting key factors influencing sales performance. The predictive model achieved satisfactory accuracy, demonstrating the potential of data-driven approaches in retail strategy.
