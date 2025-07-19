@@ -27,15 +27,15 @@ This project analyzes e-commerce sales data to predict future sales trends. By l
    - Performed feature engineering to create new predictive variables.
 
 3. **Model Building**  
-   - Implemented regression models to forecast sales.  
    - Evaluated model performance using appropriate metrics.
+   - Implemented and compared multiple regression models, including Linear Regression and Random Forest Regressor.
 
 4. **Results Visualization**  
    - Presented findings through graphs and charts for better interpretability.
 
 ## Challenges and Learnings
-
-- **Feature Selection**: Determining the most impactful features required iterative
+  - **Feature Selection**: Determining the most impactful features required iterative testing and domain understanding. I learned the importance of balancing feature complexity with model interpretability.
+  - **Model Evaluation**: Comparing different regression models (e.g., Linear Regression, Random Forest) helped me understand the trade-offs between accuracy and explainability.
 
 ## Conclusion
 
